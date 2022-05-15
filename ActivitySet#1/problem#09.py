@@ -1,3 +1,4 @@
 # Lists
 
-filename = "dataset/romeo.txt"
+filename = open ("dataset/romeo.txt")
+
