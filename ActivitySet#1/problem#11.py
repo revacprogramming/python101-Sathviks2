@@ -17,3 +17,6 @@ lst=list()
 for value,count in d.items():
     lst.append((value,count))
 
+lst.sort()
+for value,count in lst:
+    print (value,count)
